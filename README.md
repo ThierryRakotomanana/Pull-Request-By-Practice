@@ -8,5 +8,6 @@ To avoid you to waste your time watching tons of videos and reading multiple art
 https://firstcontributions.github.io/ The task is just add your name in the contributor file.
 ### Another alternative of this project is : 
 https://github.com/zero-to-mastery/start-here-guidelines More interesting because, it's suggest you the next project to start with
+https://github.com/Syknapse/Contribute-To-This-Project : In this project you just change an index.html
 ### To fix an issues, and run a test : (very easy, don't be afraid) : 
 https://github.com/danthareja/contribute-to-open-source just follow the contributing file Te task here is to apply the rule of DRY : Don't Repeat Yourself
