@@ -23,7 +23,7 @@ header {
 }
 
 .grid-container {
-  display: grid;
+  display: gird;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 60px;
   max-width: 1200px;
@@ -70,4 +70,23 @@ article h3 {
     display: block;
     margin: 0 20px;
   }
+}
+.container {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(8,8,11,1) 35%, rgb(0, 67, 80) 100%);
+  margin-top: 20px;
+  padding: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.container article {
+  padding: 50px;
+  margin: 20px;
+  background: radial-gradient(#414345);
+  border: 5px solid white;
+  color: white;
+  font-size: 2em;
+  text-align: center;
 }
