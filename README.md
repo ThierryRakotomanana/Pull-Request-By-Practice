@@ -2,6 +2,14 @@
 
 **Working on your first Pull Request?** You can learn how from this *free* series [How to Contribute to an Open Source Project on GitHub](https://kcd.im/pull-request)
 
+## For who is this project for ?
+- Javascript Beginner
+
+   You've just learn html and css and wanna learn JavaScript? Or just have a little knowlodge in Javascript and wanna make something cool with it? This project is for you
+
+- Newbies in Open Source Project
+
+
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -29,32 +37,20 @@
 - [Acknowledgements](#gem-acknowledgements)
 </details>
 
-<!-- TechStack -->
-### :space_invader: Tech Stack
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://www.w3schools.com/html/">HTML5</a></li>
-    <li><a href="https://www.w3schools.com/css/">CSS</a></li>
-    <li><a href="https://www.javascript.com/">Javascript</a></li>
-  </ul>
-</details>
 
 <!-- Roadmap -->
-## :compass: Roadmap
+## Roadmap
 
-* [x] Todo 1
-* [ ] Todo 2
+* [x] Refactor readme
+    [ ] : Description : The main objectif of this project
+    [ ] : list all the topics to learn on this project
+    [ ] : Made list of every step
+* [ ] Refactor the page
+    [ ] : 
 
 
 <!-- Contributing -->
-## :wave: Contributing
-
-<a href="https://github.com/Louis3797/awesome-readme-template/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Louis3797/awesome-readme-template" />
-</a>
-
+## Contributing
 
 Contributions are always welcome!
 
@@ -68,10 +64,10 @@ Please read the [Code of Conduct](https://github.com/Louis3797/awesome-readme-te
 
 ## Demo [Click here](https://thierryrakotomanana.github.io/My-First-Cotribution-On-Open-Source-Project/)
 
-# My First Cotribution On Open Source Project
+## Make a contribution in practice
 If you want to contribute on open source project but you don't have any idea about what to do(like me), Here some suggestion from my exeperience as a beginner at Open Source Contributor
 
-## My first PR(Pull Request)
+### My first PR(Pull Request)
 To avoid you to waste your time watching tons of videos and reading multiple articles on the subject. Here some links that can really help you
 
 ### To make your first Contribution : 
