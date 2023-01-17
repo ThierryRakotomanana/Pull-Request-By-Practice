@@ -8,7 +8,10 @@
    You've just learn html and css and wanna learn JavaScript? Or just have a little knowlodge in Javascript and wanna make something cool with it? This project is for you
 
 - Newbies in Open Source Project
+  Everybody arround you tell you to contribute on Open Source Project but when you try it, you don't know what to do, where to start and how can you contribute with the liitle knwoledge you acquire after dealing with HTML/CSS & basic's JavaScript?
+  Be happy because this project is perfect for you [;*] , all you need is just understand basic english (like me), read each topics till the end and follow instruction. 
 
+  Now Let's Get started 
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -46,7 +49,10 @@
     [ ] : list all the topics to learn on this project
     [ ] : Made list of every step
 * [ ] Refactor the page
-    [ ] : 
+    [ ] : Define the content
+    [ ] : what to show ?
+    [ ] : For who is this project ?
+    [ ] : it's talk about what?
 
 
 <!-- Contributing -->
