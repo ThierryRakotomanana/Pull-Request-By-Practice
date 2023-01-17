@@ -42,7 +42,7 @@
 
 
 <!-- Roadmap -->
-## Roadmap
+## TO DO
 
 * [x] Refactor readme
     [ ] : Description : The main objectif of this project
@@ -53,6 +53,8 @@
     [ ] : what to show ?
     [ ] : For who is this project ?
     [ ] : it's talk about what?
+      - index file
+      [ ] : try to make a cool layout for header
 
 
 <!-- Contributing -->
