@@ -41,7 +41,7 @@
 </details>
 
 
-<!-- Roadmap -->
+<!-- Progression -->
 ## TO DO
 
 * [x] Refactor readme
@@ -56,6 +56,17 @@
       - index file
       [ ] : try to make a cool layout for header
 
+<!-- Roadmap -->
+
+## Road Map
+
+step 1 : HTML and CSS layout
+step 2 : functionnality of project
+  - create a new Task
+  - delete a task
+  - mark task completed
+  - edit a task
+step 3 : send a pull request
 
 <!-- Contributing -->
 ## Contributing
