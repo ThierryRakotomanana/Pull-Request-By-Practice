@@ -62,7 +62,8 @@
 
 step 1 : HTML and CSS layout
 step 2 : functionnality of project
-  - create a new Task
+  - create a new Task 
+  [createNewTask.md](createNewTask.md)
   - delete a task
   - mark task completed
   - edit a task
