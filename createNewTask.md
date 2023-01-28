@@ -9,7 +9,8 @@ This functionnality create a new task, this task will be display in the index.ht
         2. And after display it.
 
 ## Create new task
-
+Create a file "app.js" and link this with the HTML file with the `script` tag.
+In this file, create a funcion called ``createNewTask()``
 ## Show the task created
 
 # Final code
@@ -36,3 +37,5 @@ function createNewTask(){
 }
 
 buttonAddNewTask.addEventListener('click', createNewTask)
+
+# [Next Step](deleteTask.md)
