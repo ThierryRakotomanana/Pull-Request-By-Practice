@@ -61,6 +61,7 @@
 ## Road Map
 
 step 1 : HTML and CSS layout
+  - [layout](layout.md)
 step 2 : functionnality of project
   - create a new Task 
   [createNewTask.md](createNewTask.md)
