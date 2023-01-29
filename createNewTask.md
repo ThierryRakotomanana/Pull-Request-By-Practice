@@ -5,12 +5,11 @@ This functionnality create a new task, this task will be display in the index.ht
 
 # How can we do that?
     - Interact with the HTML file by the DOM
-        1. we need to create an element that tell us, when the user want create a task 
-        2. And after display it.
+        1. we need to create variables and elements that tell us, when the user want create a task and what he write. 
+        2. And after display it in the task TO DO.
 
-## Create new task
-Create a file "app.js" and link this with the HTML file by the `<script>` tag.
-In this file:
+## Tell me when user wanna create the task
+First create a file "app.js" and link this with the HTML file by the `<script>` tag. This file will contain all the code we will write in each step. 
     Steps :
     How to known when the user click the button that create a task
     - create a variable `buttonAddNewTask`
@@ -83,4 +82,4 @@ function createNewTask(){
 
 buttonAddNewTask.addEventListener('click', createNewTask)
 
-### [Next Step](deleteTask.md)
+## [Next Step](deleteTask.md)
