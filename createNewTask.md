@@ -9,8 +9,19 @@ This functionnality create a new task, this task will be display in the index.ht
         2. And after display it.
 
 ## Create new task
-Create a file "app.js" and link this with the HTML file with the `script` tag.
-In this file, create a funcion called ``createNewTask()``
+Create a file "app.js" and link this with the HTML file by the `<script>` tag.
+In this file:
+    How to known when the user click the button that create a task
+    - create a variable `buttonAddNewTask`
+    - add an EventListener for buttonAddNewTask
+    - create a funcion ``createNewTask()`` called when the button is clicked
+    After that, we need pass the value in the form to set it to the title task : 
+    - create a variable that contain the value of title task(text)
+    - in the function ``createNewTask()`` :
+        - create a variable who have the same proprety of the list items
+        - create another variable who take the value of title task and append it in the list items.
+        - display the list items in the TO DO section
+
 ## Show the task created
 
 # Final code
@@ -30,8 +41,7 @@ function createNewTask(){
     if(taskTilte.value != '') {
         const li = createElement('li', 'list-item')
         const span = createElement('span', taskTilte.value)
-        const input = createElement('input', taskTilte.value)
-        li.append(span, input)
+        li.append(span)
         listTaskToDo.insertBefore(li, taskTilte)
     }
 }
