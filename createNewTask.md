@@ -11,18 +11,46 @@ This functionnality create a new task, this task will be display in the index.ht
 ## Create new task
 Create a file "app.js" and link this with the HTML file by the `<script>` tag.
 In this file:
+    Steps :
     How to known when the user click the button that create a task
     - create a variable `buttonAddNewTask`
     - add an EventListener for buttonAddNewTask
     - create a funcion ``createNewTask()`` called when the button is clicked
-    After that, we need pass the value in the form to set it to the title task : 
+    Codes :
+    const buttonAddNewTask = document.querySelector('.add')
+    const listTaskToDo = document.querySelector('.list-items.toDo')
+
+    function createNewTask(){
+    }
+
+    buttonAddNewTask.addEventListener('click', createNewTask)
+
+## Show the task created
+After that, we need to take the value write by user in the form to set it to the title task and after dispaly it in the list of Task TO DO:
+    Steps :
     - create a variable that contain the value of title task(text)
     - in the function ``createNewTask()`` :
         - create a variable who have the same proprety of the list items
         - create another variable who take the value of title task and append it in the list items.
         - display the list items in the TO DO section
+    Codes :
+    const taskTilte = document.querySelector('#taskTitle')
 
-## Show the task created
+    function createElement(element, className) {
+        const newElement = document.createElement(element)
+        newElement.classList.add( element == 'li' ? className : element)
+        if(element.includes('span')) newElement.innerHTML = className
+        return newElement
+    }
+
+    function createNewTask(){
+        if(taskTilte.value != '') {
+            const li = createElement('li', 'list-item')
+            const span = createElement('span', taskTilte.value)
+            li.append(span)
+            listTaskToDo.insertBefore(li, taskTilte)
+        }
+    }
 
 # Final code
 
