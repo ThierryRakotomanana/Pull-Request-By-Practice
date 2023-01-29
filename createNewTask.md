@@ -16,6 +16,7 @@ In this file:
     - create a variable `buttonAddNewTask`
     - add an EventListener for buttonAddNewTask
     - create a funcion ``createNewTask()`` called when the button is clicked
+
     Codes :
     const buttonAddNewTask = document.querySelector('.add')
     const listTaskToDo = document.querySelector('.list-items.toDo')
@@ -34,6 +35,7 @@ After that, we need to take the value write by user in the form to set it to the
         - create another variable who take the value of title task and append it in the list items.
         - display the list items in the TO DO section
     Codes :
+
     const taskTilte = document.querySelector('#taskTitle')
 
     function createElement(element, className) {
@@ -52,7 +54,12 @@ After that, we need to take the value write by user in the form to set it to the
         }
     }
 
-# Final code
+## Some Explicatiions 
+Apply the DRY principle to write less code and to be more readable by using the ``function createElement``
+Add a condition to avoid an empty title task(you can even do better than this simple condition ;) ).
+Insert the Task create before the last element in the list items(the button element)
+
+## Final code
 
 const buttonAddNewTask = document.querySelector('.add')
 const taskTilte = document.querySelector('#taskTitle')
@@ -76,4 +83,4 @@ function createNewTask(){
 
 buttonAddNewTask.addEventListener('click', createNewTask)
 
-# [Next Step](deleteTask.md)
+### [Next Step](deleteTask.md)
