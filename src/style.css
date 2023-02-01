@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+.heading, .container {
+    text-transform: capitalize;
+    margin: 20px auto;
+}
+
+.container {
+    width: 65%;
+    margin: 0 auto;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid blue;
+}
+
+.task {
+    font-size: larger;
+    width: 50%;
+    margin: 5px ;
+}
+
+.task.complete.hidden {
+    display: none;
+}
+
+
+.list-items {
+    margin-top: 5px;
+    border: 1px solid black;
+}
+
+.list-item {
+    text-align: left;
+    list-style: none;
+    background: linear-gradient(to bottom right, #FD8451, #FFBD6F);
+    margin: 3px;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr max-content max-content max-content;
+    grid-template-rows: max-content;
+    gap: 2px;
+}
+
+.contain {
+    width: 30px;
+    height: 25px;
+    display: flex;
+    color: white;
+}
+
+.contain.hidden {
+    display: none;
+}
+
+.span {
+    text-align: left;
+    display: block;
+}
+
+.span.hidden {
+    display: none;
+}
+
+.svg {
+    width: 27px;
+    border-radius: 2px;
+}
+
+.svg.hidden {
+    display: none;
+}
+
+.input {
+    width: max-content;
+}
+
+.input.hidden {
+    display: none;
+}
+
+.button {
+    width: 35px;
+    color: whitesmoke;
+    background-color: #0f0f0f;
+}
+
+.delete {
+    color: white;
+    background-color: red;
+}
+
+.save {
+    color: green;
+    background-color: white;
+}
+
+button.add {
+    width: 100px;
+    height: 30px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+
