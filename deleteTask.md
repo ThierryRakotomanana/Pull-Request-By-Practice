@@ -57,4 +57,4 @@ We use Eventlistner to know what task is selected.
 
 ## Final code
 
-## [Next Step](editTask.md)
+## [Next Step](completeTask.md)
