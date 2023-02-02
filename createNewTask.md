@@ -17,6 +17,7 @@ First create a file "app.js" and link this with the HTML file by the `<script>` 
     - create a funcion ``createNewTask()`` called when the button is clicked
 
     Codes :
+```js
     const buttonAddNewTask = document.querySelector('.add')
     const listTaskToDo = document.querySelector('.list-items.toDo')
 
@@ -24,6 +25,7 @@ First create a file "app.js" and link this with the HTML file by the `<script>` 
     }
 
     buttonAddNewTask.addEventListener('click', createNewTask)
+```
 
 ## Show the task created
 After that, we need to take the value write by user in the form to set it to the title task and after dispaly it in the list of Task TO DO:
