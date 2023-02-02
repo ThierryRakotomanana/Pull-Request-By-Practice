@@ -13,7 +13,8 @@ This functionnality move the task selected in the list of task complete, so we n
     Steps :
     - 
     Codes :
-    
+
+```js
     const buttonSave = `<svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" class="svg save">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"></path>
                         </svg>`
@@ -36,11 +37,13 @@ This functionnality move the task selected in the list of task complete, so we n
             svgDelete.addEventListener('click', deleteTask)
         }
     }
+```
 ## Move Task to complete section
 
     Steps :
     - 
     Codes :
+```js
     const boxContainTaskComplete = document.querySelector('.task.complete')
     const listTaskComplete = document.querySelector('.list-items.complete')
 
@@ -68,6 +71,8 @@ This functionnality move the task selected in the list of task complete, so we n
             svgSave.addEventListener('click', moveToComplete)
         }
     }
+```
+
 ## Some Explicatiions 
 
 ## Final code
