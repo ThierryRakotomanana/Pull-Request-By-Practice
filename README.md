@@ -9,7 +9,7 @@
 
 - Newbies in Open Source Project
   Everybody arround you tell you to contribute on Open Source Project but when you try it, you don't know what to do, where to start and how can you contribute with the liitle knwoledge you acquire after dealing with HTML/CSS & basic's JavaScript?
-  Be happy because this project is perfect for you [;*] , all you need is just understand basic english (like me), read each topics till the end and follow instruction. 
+  Be happy because this project is perfect for you, all you need is just understand basic english (like me), read each topics till the end and follow instruction. 
 
   Now Let's Get started 
 
@@ -60,15 +60,16 @@
 
 ## Road Map
 
-step 1 : HTML and CSS layout
-  - [layout](layout.md)
-step 2 : functionnality of project
-  - create a new Task 
-  [createNewTask.md](createNewTask.md)
-  - delete a task
-  - mark task completed
-  - edit a task
-step 3 : send a pull request
+* step 1 : HTML and CSS layout
+  > copy this two files [HTML](.src/index.html), [CSS](.src/style.css).
+
+* step 2 : functionnality of project
+  > [create a new Task](createNewTask.md)
+  > [delete a task](deleteTask.md)
+  > [mark task completed](completeTask.md)
+  > [edit a task](editTask.md)
+
+* step 3 : send a pull request
 
 <!-- Contributing -->
 ## Contributing
@@ -108,7 +109,7 @@ just follow the contributing file Te task here is to apply the rule of DRY : Don
 
 If you understand French, here another project where you can translate the documentation :
 [x] On this project, i made some change, actually at the moment i write this line I'm waiting for the approval of the reviewers
-[markdown dungeon](https://github.com/MakeContributions/markdown-dungeon/)
+[markdown dungeon](ttps://github.com/MakeContributions/markdown-dungeon/)
 
 
 <!-- License -->
