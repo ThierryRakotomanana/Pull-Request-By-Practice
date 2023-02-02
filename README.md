@@ -85,21 +85,30 @@ Please read the [Code of Conduct](https://github.com/Louis3797/awesome-readme-te
 
 ## Demo [Click here](https://thierryrakotomanana.github.io/My-First-Cotribution-On-Open-Source-Project/)
 
-## Make a contribution in practice
+## Make a contribution in practice(Recommendation)
 If you want to contribute on open source project but you don't have any idea about what to do(like me), Here some suggestion from my exeperience as a beginner at Open Source Contributor
 
-### My first PR(Pull Request)
+Some first PR(Pull Request), maybe yours too.
 To avoid you to waste your time watching tons of videos and reading multiple articles on the subject. Here some links that can really help you
 
-### To make your first Contribution : 
-https://firstcontributions.github.io/ The task is just add your name in the contributor file.
-### Another alternative of this project is : 
-https://github.com/zero-to-mastery/start-here-guidelines More interesting because, it's suggest you the next project to start with
-https://github.com/Syknapse/Contribute-To-This-Project : In this project you just change an index.html
-### To fix an issues, and run a test : (very easy, don't be afraid) : 
-https://github.com/danthareja/contribute-to-open-source just follow the contributing file Te task here is to apply the rule of DRY : Don't Repeat Yourself
-### On this project, i made some change, actually at the moment i write this line I'm waiting for the approval of the reviewers
-https://github.com/MakeContributions/markdown-dungeon/
+To make your first Contribution : 
+[firstcontribution](https://firstcontributions.github.io/) 
+The task is just add your name in the contributor file.
+
+Another alternative of this project is : 
+[start here guidelines(]https://github.com/zero-to-mastery/start-here-guidelines)
+More interesting because, it's suggest you the next project to start with
+
+[Contribute to this project](https://github.com/Syknapse/Contribute-To-This-Project)
+In this project you just change an index.html
+
+To fix an issues, and run a test : (very easy, don't be afraid) : 
+[contribute to open source](https://github.com/danthareja/contribute-to-open-source)
+just follow the contributing file Te task here is to apply the rule of DRY : Don't Repeat Yourself
+
+If you understand French, here another project where you can translate the documentation :
+[x] On this project, i made some change, actually at the moment i write this line I'm waiting for the approval of the reviewers
+[markdown dungeon](https://github.com/MakeContributions/markdown-dungeon/)
 
 
 <!-- License -->
