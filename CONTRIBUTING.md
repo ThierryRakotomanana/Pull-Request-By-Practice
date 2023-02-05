@@ -1,6 +1,6 @@
 # How to contribute
 
-Do you want to add a room, a floor, or just fix some spelling mistakes but don't know how to best contribute your work?  
+Do you want to ?  
 This guide is here to help.
 
 There are different ways to use git and GitHub. You might use a graphical user interface (GUI), which some IEDs already have included or the command line.  
@@ -8,7 +8,7 @@ In this tutorial we will try to keep stuff simple and therefore use the command 
 
 ## Find an issue
 
-While viewing the repository you can use the tap "Issues" to view and filter [open issues](https://github.com/MakeContributions/markdown-dungeon/issues).  
+While viewing the repository you can use the tap "Issues" to view and filter [open issues](https://github.com/ThierryRakomanana/thisprojectname/issues).  
 There are some tags like "good first issue" or "beginner" that might be of special interest to you.
 
 ## (Optional) Announce your interest
@@ -48,7 +48,7 @@ For bringing the repository on your device you need to clone it.
 
 Go to your version of the repository, click on the "Code" button and choose one of three ways: HTTPS, ssh or GitHub Cli.
 Copy the line beneath the method. 
-For example: https://github.com/<your-profile-name>/markdown-dungeon.git
+For example: https://github.com/<your-profile-name>/.git
 
 Open a terminal and navigate to where you want to place the repository.  
 Enter
