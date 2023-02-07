@@ -15,9 +15,12 @@ This functionnality move the task selected in the list of task complete, so we n
     Codes :
 
 ```js
+
+    // create the button to catch event
     const buttonSave = `<svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" class="svg save">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"></path>
                         </svg>`
+
     function createElement(element, className) {
         const newElement = document.createElement(element)
         newElement.classList.add( element == 'li' ? className : element)
@@ -34,6 +37,7 @@ This functionnality move the task selected in the list of task complete, so we n
             li.append(span, svgDelete)
             listTaskToDo.insertBefore(li, taskTilte)
 
+            //event listener for completed's function
             svgDelete.addEventListener('click', deleteTask)
         }
     }
