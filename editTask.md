@@ -1,10 +1,11 @@
 # What we need to do ?
-This functionnality move the task selected in the list of task complete, so we need to : 
+
+This functionnality move the task selected in the list of task complete, so we need to :
     - Know what task is slected.
     - take the title task and put it in the form where user can edit it.
     - save the change.
 
-# How can we do that?
+## How can we do that?
 
         1.  
         2. 
@@ -14,6 +15,7 @@ This functionnality move the task selected in the list of task complete, so we n
     Steps :
     - 
     Codes :
+
 ```js
 function createNewTask(){
         if(taskTilte.value != '') {
@@ -43,11 +45,12 @@ function createNewTask(){
     }
 ```
 
-## edit title task and save the change.
+## edit title task and save the change
 
     Steps :
     - 
     Codes :
+
 ```js
 function removeClassHidden(element){
     element.classList.remove('hidden')
@@ -73,12 +76,13 @@ function editTitleTask() {
     }
 }
 ```
-    
-## Some Explicatiions 
+
+## Some Explicatiions
 
 DRY : use function to not repeat
 
 ## Final code
+
 ```js
     function removeClassHidden(element){
         element.classList.remove('hidden')
@@ -138,4 +142,5 @@ DRY : use function to not repeat
         }
     }
 ```
+
 ## [Next Step](editTask.md)
