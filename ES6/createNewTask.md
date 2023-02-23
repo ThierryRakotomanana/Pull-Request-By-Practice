@@ -45,14 +45,14 @@ const buttonAddNewTask = document.querySelector('.add')
 const taskTilte = document.querySelector('#taskTitle')
 const listTaskToDo = document.querySelector('.list-items.toDo')
 
-function createElement(element, className) {
+const createElement = (element, className) =>{
     const newElement = document.createElement(element)
     newElement.classList.add( element == 'li' ? className : element)
     if(element.includes('span')) newElement.innerHTML = className
     return newElement
 }
 
-function createNewTask(){
+const createNewTask = () =>{
     if(taskTilte.value != '') {
         const li = createElement('li', 'list-item')
         const span = createElement('span', taskTilte.value)
