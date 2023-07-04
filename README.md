@@ -1,137 +1,23 @@
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com)
+# Pull Request By Practice
 
-**Working on your first Pull Request?** You can learn how from this *free* series [How to Contribute to an Open Source Project on GitHub](https://kcd.im/pull-request)
+Welcome to the **Pull Request By Practice** project! This project aims to demonstrate how to send a pull request by making changes to the `index.html` file and adding your name and a link to your GitHub profile. By following the instructions provided in this README, you will learn how to contribute to this project effectively.
 
-## For who is this project for ?
-- Javascript Beginner
-
-   You've just learn html and css and wanna learn JavaScript? Or just have a little knowlodge in Javascript and wanna make something cool with it? This project is for you
-
-- Newbies in Open Source Project
-  Everybody arround you tell you to contribute on Open Source Project but when you try it, you don't know what to do, where to start and how can you contribute with the liitle knwoledge you acquire after dealing with HTML/CSS & basic's JavaScript?
-  Be happy because this project is perfect for you, all you need is just understand basic english (like me), read each topics till the end and follow instruction. 
-
-  Now Let's Get started 
-
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-# :notebook_with_decorative_cover: Table of Contents
-
-- [About the Project](#star2-about-the-project)
-  * [Screenshots](#camera-screenshots)
-  * [Tech Stack](#space_invader-tech-stack)
-  * [Features](#dart-features)
-  * [Color Reference](#art-color-reference)
-  * [Environment Variables](#key-environment-variables)
-- [Getting Started](#toolbox-getting-started)
-  * [Prerequisites](#bangbang-prerequisites)
-  * [Installation](#gear-installation)
-  * [Running Tests](#test_tube-running-tests)
-  * [Run Locally](#running-run-locally)
-  * [Deployment](#triangular_flag_on_post-deployment)
-- [Usage](#eyes-usage)
-- [Roadmap](#compass-roadmap)
-- [Contributing](#wave-contributing)
-  * [Code of Conduct](#scroll-code-of-conduct)
-- [FAQ](#grey_question-faq)
-- [License](#warning-license)
-- [Contact](#handshake-contact)
-- [Acknowledgements](#gem-acknowledgements)
-</details>
-
-
-<!-- Progression -->
-## TO DO
-
-* [x] Refactor readme
-    [ ] : Description : The main objectif of this project
-    [ ] : list all the topics to learn on this project
-    [ ] : Made list of every step
-* [ ] Refactor the page
-    [ ] : Define the content
-    [ ] : what to show ?
-    [ ] : For who is this project ?
-    [ ] : it's talk about what?
-      - index file
-      [ ] : try to make a cool layout for header
-
-<!-- Roadmap -->
-
-## Road Map
-
-* step 1 : HTML and CSS layout
-  > copy this two files [HTML](.src/index.html), [CSS](.src/style.css).
-
-* step 2 : functionnality of project
-  > [create a new Task](createNewTask.md)
-  > [delete a task](deleteTask.md)
-  > [mark task completed](completeTask.md)
-  > [edit a task](editTask.md)
-
-* step 3 : send a pull request
-
-<!-- Contributing -->
 ## Contributing
 
-Contributions are always welcome!
+To contribute to this project, please read the [CONTRIBUTING.md](./CONTRIBUTING.md) file. It contains detailed guidelines on how to make changes to the `index.html` file and create a pull request. We encourage you to carefully review these guidelines to ensure that your contributions align with the project's objectives.
 
-See `contributing.md` for ways to get started.
+## Getting Started
 
+To get started, make sure you have a GitHub account. If you don't have one, you can easily create an account for free at [github.com](https://github.com/). Once you have an account, follow the steps outlined in the [CONTRIBUTING.md](./CONTRIBUTING.md) file to make your changes to the `index.html` file.
 
-<!-- Code of Conduct -->
-### :scroll: Code of Conduct
+## Making Changes
 
-Please read the [Code of Conduct](https://github.com/Louis3797/awesome-readme-template/blob/master/CODE_OF_CONDUCT.md)
+After forking the repository and cloning it to your local machine, navigate to the project directory and open the `index.html` file in a text editor. Add your name and a link to your GitHub profile in the designated section. Save the file once you have made your changes.
 
-## Demo [Click here](https://thierryrakotomanana.github.io/My-First-Cotribution-On-Open-Source-Project/)
+## Creating a Pull Request
 
-## Make a contribution in practice(Recommendation)
-If you want to contribute on open source project but you don't have any idea about what to do(like me), Here some suggestion from my exeperience as a beginner at Open Source Contributor
+To submit your contributions, you need to create a pull request. Follow the instructions provided in the [CONTRIBUTING.md](./CONTRIBUTING.md) file to create a new branch, commit your changes, and push them to your forked repository. Then, submit a pull request from your forked repository to the main repository. Detailed instructions can be found in the [CONTRIBUTING.md](./CONTRIBUTING.md) file.
 
-Some first PR(Pull Request), maybe yours too.
-To avoid you to waste your time watching tons of videos and reading multiple articles on the subject. Here some links that can really help you
+## Conclusion
 
-To make your first Contribution : 
-[firstcontribution](https://firstcontributions.github.io/) 
-The task is just add your name in the contributor file.
-
-Another alternative of this project is : 
-[start here guidelines(]https://github.com/zero-to-mastery/start-here-guidelines)
-More interesting because, it's suggest you the next project to start with
-
-[Contribute to this project](https://github.com/Syknapse/Contribute-To-This-Project)
-In this project you just change an index.html
-
-To fix an issues, and run a test : (very easy, don't be afraid) : 
-[contribute to open source](https://github.com/danthareja/contribute-to-open-source)
-just follow the contributing file Te task here is to apply the rule of DRY : Don't Repeat Yourself
-
-If you understand French, here another project where you can translate the documentation :
-[x] On this project, i made some change, actually at the moment i write this line I'm waiting for the approval of the reviewers
-[markdown dungeon](ttps://github.com/MakeContributions/markdown-dungeon/)
-
-
-<!-- License -->
-## :warning: License
-
-Distributed under the no License. See LICENSE.txt for more information.
-
-
-<!-- Contact -->
-## :handshake: Contact
-
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
-
-Project Link: [https://github.com/Louis3797/awesome-readme-template](https://github.com/Louis3797/awesome-readme-template)
-
-
-<!-- Acknowledgments -->
-## :gem: Acknowledgements
-
-Use this section to mention useful resources and libraries that you have used in your projects.
-
- - [Shields.io](https://shields.io/)
- - [Awesome README](https://github.com/matiassingers/awesome-readme)
- - [Emoji Cheat Sheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md#travel--places)
- - [Readme Template](https://github.com/othneildrew/Best-README-Template)
+By participating in the **Pull Request By Practice** project, you will gain hands-on experience in contributing to open-source projects through pull requests. We appreciate your interest in this project and encourage you to explore the [CONTRIBUTING.md](./CONTRIBUTING.md) file to start making your contributions. Together, we can learn and improve our skills in collaborating on GitHub. Happy contributing!
