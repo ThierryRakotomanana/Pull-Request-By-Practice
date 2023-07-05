@@ -12,10 +12,11 @@ To get started, make sure you have a GitHub account. If you don't have one, you 
 
 ## Installation
 
-- Prerequisites
-First you need to install NodeJs [![My Skills](https://skillicons.dev/icons?i=nodejs&theme=light)](https://skillicons.dev) on your machine
+![Alt text](https://img.shields.io/badge/Node.js-339933.svg?style=for-the-badge&logo=nodedotjs&logoColor=white).
 
-- Install all dependencies
+First you need to install NodeJs on your machine
+
+Install all dependencies
 After downloading this project or clone it locally, you just run
 
 ```shell
