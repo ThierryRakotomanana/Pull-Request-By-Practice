@@ -10,6 +10,18 @@ To contribute to this project, please read the [CONTRIBUTING.md](./CONTRIBUTING.
 
 To get started, make sure you have a GitHub account. If you don't have one, you can easily create an account for free at [github.com](https://github.com/). Once you have an account, follow the steps outlined in the [CONTRIBUTING.md](./CONTRIBUTING.md) file to make your changes to the `index.html` file.
 
+## Installation
+
+- Prerequisites
+First you need to install NodeJs [![My Skills](https://skillicons.dev/icons?i=nodejs&theme=light)](https://skillicons.dev) on your machine
+
+- Install all dependencies
+After downloading this project or clone it locally, you just run
+
+```shell
+npm install
+```
+
 ## Making Changes
 
 After forking the repository and cloning it to your local machine, navigate to the project directory and open the `index.html` file in a text editor. Add your name and a link to your GitHub profile in the designated section. Save the file once you have made your changes.
