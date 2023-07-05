@@ -59,7 +59,15 @@ For example:
 git switch -c aza-manao-copie-coller-loatra-fa-tsss
 ```
 
-3. Make your changes and commit them.
+3. Install all dependencies
+
+This command install all dependencies needed
+
+```shell
+npm install.
+```
+
+4. Make your changes and commit them.
 
 In the project directory makes your change and save them after execute the command `git status`, you'll see there are changes.
 
@@ -75,7 +83,7 @@ Now commit those changes using the `git commit` command:
 git commit -m "fix issue #TAG_ISSUE : description of change"
 ```
 
-4. Push to the main branch of your fork.
+5. Push to the main branch of your fork.
 
 Push your changes using the command `git push`:
 
